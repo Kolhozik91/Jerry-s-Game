@@ -1,0 +1,19 @@
+[project]
+name = "jerry-s-game"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Kolhozik91",email = "Kozya1991.ks@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "jerry_s_game", from = "src"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
